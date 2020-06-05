@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ImageSlider</string>
+    <dimen name="_150dp">150dp</dimen>
+
+    <string-array name="country">
+        <item name="india">India</item>
+        <item name="usa">USA</item>
+        <item name="russia">Russia</item>
+        <item name="japan">Japan</item>
+    </string-array>
+</resources>
