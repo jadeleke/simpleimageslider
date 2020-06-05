@@ -1786,6 +1786,7 @@ public class ViewPagerEx extends ViewGroup {
         return (x < mGutterSize && dx > 0) || (x > getWidth() - mGutterSize && dx < 0);
     }
 
+    @SuppressLint("WrongConstant")
     private void enableLayers(boolean enable) {
         final int childCount = getChildCount();
         for (int i = 0; i < childCount; i++) {
@@ -2777,6 +2778,7 @@ public class ViewPagerEx extends ViewGroup {
 
     class MyAccessibilityDelegate extends AccessibilityDelegateCompat {
 
+        @SuppressLint("WrongConstant")
         @Override
         public void onInitializeAccessibilityEvent(View host, AccessibilityEvent event) {
             super.onInitializeAccessibilityEvent(host, event);
