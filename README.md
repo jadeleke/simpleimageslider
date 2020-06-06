@@ -15,7 +15,7 @@ allprojects {
 And then add this below to your other gradle file
 ```
 dependencies {
-	implementation 'com.github.myinnos:ImageSliderWithSwipes:1.0.2'
+	implementation 'com.github.jadeleke:simpleimageslider:Tag'
 }
 ```
 
