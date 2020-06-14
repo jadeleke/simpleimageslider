@@ -15,7 +15,7 @@ allprojects {
 And then add this below to your other gradle file
 ```
 dependencies {
-	implementation 'com.github.jadeleke:simpleimageslider:Tag'
+	    implementation 'com.github.jadeleke:simpleimageslider:1.0.0'
 }
 ```
 
